@@ -77,7 +77,7 @@ sns.barplot(x="hr", y="cnt", data=sum_count_hour_df.head(24), ax=ax)
 # Customize the plot
 ax.set_ylabel(None)
 ax.set_xlabel("Hour", fontsize=30)
-ax.set_title("Best Performing Product", loc="center", fontsize=50)
+ax.set_title("Best Performing by Hour", loc="center", fontsize=50)
 ax.tick_params(axis="y", labelsize=35)
 ax.tick_params(axis="x", labelsize=30)
 
